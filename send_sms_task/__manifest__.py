@@ -16,7 +16,7 @@ https://www.facebook.com/yasr3mr96/videos/202191610789649/
 
     'author': "yasser Omer",
     'website': "https://www.facebook.com/yasr3mr96",
-    'phon':'01028408177',
+    'phone':'01028408177',
     'email': 'yasr3mr796@gmail.com',
 
     # Categories can be used to filter modules in modules listing
