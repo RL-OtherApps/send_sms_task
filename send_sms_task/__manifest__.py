@@ -1,17 +1,21 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "send_task",
+    'name': "send_sms_task",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        send SMS notification to user linked with project task""",
 
     'description': """
-        Long description of module's purpose
-    """,
+Send task name to the employee by sms (twilio gateway)  
+follow instraction from the following vedio
+https://www.facebook.com/yasr3mr96/videos/202191610789649/ 
+ you must install  twilio on ubuntu by the following command
+ 
+ pip3 install twilio
+""",
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "yasser Omer",
+    'website': "https://www.facebook.com/yasr3mr96",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -20,7 +24,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','project','twilio'],
+    'depends': ['base','project'],
 
     # always loaded
     'data': [
